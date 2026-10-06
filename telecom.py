@@ -124,7 +124,7 @@ class Downlink:
         Args:
             mode: the type of communication mode (uplink, downlink).
             type(str): defines the type of mission (lunar orbit, earth orbit, interplanetary mission)
-            d_S (float): defines the distance between the s/c and the Sun in m and may be
+            d_S (float): defines the distance between the s/c and the Sun and may be
             considered equal to the distance of the Planet (which the s/c orbit) to the Sun. It is in km.
         Returns:
             float: the fspl in dB.
